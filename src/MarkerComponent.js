@@ -1,8 +1,5 @@
 import React, { Component } from "react";
-import {
-  InfoWindow,
-  Marker
-} from "react-google-maps";
+import { InfoWindow, Marker } from "react-google-maps";
 
 class MarkerComponent extends Component {
   constructor(props) {
@@ -35,11 +32,26 @@ class MarkerComponent extends Component {
         position={this.props.center}
         onClick={this.toggleOpen}
         animation={this.state.animation}
-        title={'Keep It Weird'}
+        title={"Keep It Weird"}
       >
         {this.state.isOpen && (
-          <InfoWindow onCloseClick={this.toggleClose}>
-            <h3>Info Window</h3>
+          <InfoWindow
+            onCloseClick={this.toggleClose}
+            options={{ maxWidth: 320 }}
+          >
+            <div>
+              <h3>InfoWindow</h3>
+              <p>
+                A tree needs to be your friend if you're going to paint him. The
+                only prerequisite is that it makes you happy. If it makes you
+                happy then it's good. I thought today we would do a happy little
+                picture. This present moment is perfect simply due to the fact
+                you're experiencing it. Work on one thing at a time. Don't get
+                carried away - we have plenty of time. I really believe that if
+                you practice enough you could paint the 'Mona Lisa' with a
+                two-inch brush.
+              </p>
+            </div>
           </InfoWindow>
         )}
       </Marker>
