@@ -12,6 +12,6 @@ Start up the app: `npm start`
 
 ### Key Location
 
-Note: You are much better of storing these values in a file and calling them from the components. This example is provided for the sake of brevity and clarity.
+Note: You are much better off storing these values in a file and calling them from the components. This example is provided for the sake of brevity and clarity.
 
 ![Key Location](https://github.com/evolaric/rgm-example/blob/master/key.png "Key Location")
