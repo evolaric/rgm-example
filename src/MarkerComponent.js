@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { InfoWindow, Marker } from "react-google-maps";
+import { Marker } from "react-google-maps";
 import InfoWindowComponent from "./InfoWindowComponent";
 
 class MarkerComponent extends Component {
