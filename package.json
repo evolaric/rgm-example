@@ -6,7 +6,7 @@
     "@types/googlemaps": "^3.30.13",
     "@types/markerclustererplus": "^2.1.33",
     "@types/react": "^16.4.14",
-    "ajv": "^6.5.4",
+    "ajv": "^6.12.3",
     "merge": "^1.2.1",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
